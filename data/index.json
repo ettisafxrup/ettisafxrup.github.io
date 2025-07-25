@@ -2,16 +2,16 @@
   "about": "— Aspiring Computer Engineer, Undergraduate at B.Sc, CSE | KUET with a strong foundation in programming, problem-solving, and system-level understanding. Passionate about learning, exploring and understanding how things work under the hood. Enthusiastic about building efficient, scalable, meaningful and innovative solutions. Known for being a fast learner, team player, and someone who blends the mess.",
   "experience": [
     {
-      "title": "Software Engineer",
-      "company": "Google",
-      "jobspan": "2021",
-      "responsibilites": "Present"
+      "title": "Technical Lead",
+      "company": "Proxima IT",
+      "jobspan": "March 2025 - Present",
+      "responsibilites": "working on Technical Architecture, Backend-Focused Application Development and writing Weekly Briefs to Proxima IT to ensure seamless coordination and project transparency."
     },
     {
-      "title": "Software Engineer",
-      "company": "Google",
-      "jobspan": "2021",
-      "responsibilites": "Present"
+      "title": "CTO",
+      "company": "LoopNest",
+      "jobspan": "March 2025 - April 2025",
+      "responsibilites": "Maintaining the Backend Infrastructure of LoopNest, developing custom tools for the team, ensuring smooth and efficient operations."
     }
   ],
   "education": [
