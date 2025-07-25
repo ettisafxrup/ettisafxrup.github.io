@@ -1,0 +1,42 @@
+[
+  {
+    "image": "https://i.ibb.co/R4N4x36v/weex.png",
+    "title": "weexSchools — Manage like a Pro!",
+    "description": "A chromium-based (Native Electron) desktop application for managing educational institute's data more efficiently!",
+    "github": "https://github.com/ettisafxrup/weexschools",
+    "preview": "https://github.com/ettisafxrup/weexschools/releases"
+  },
+  {
+    "image": "https://i.ibb.co/wFWFBXRq/rgit.png",
+    "title": "rit — Life became easy!",
+    "description": "rit is a lightweight command-line macro tool designed to speed up and simplify your daily life workflows, including gits and project managings",
+    "github": "https://github.com/ettisafxrup/rit",
+    "preview": "https://github.com/ettisafxrup/rit/tree/main/installer"
+  },
+  {
+    "image": "https://i.ibb.co/Vc6PzNVG/zipcity.png",
+    "title": "zipcity-bd — an NPM package that people didn't know they needed!",
+    "description": "A Bangladesh-based zipcode package to get your Divisions, Districts, City, Sub-City with PostalCode in just seconds.",
+    "github": "https://github.com/ettisafxrup/zipcity-bd",
+    "preview": "https://www.npmjs.com/package/zipcity-bd"
+  },
+  {
+    "image": "https://i.ibb.co/mrBVq8Vk/image.png",
+    "title": "tempChats — chat and disappear! 🤫",
+    "description": "a NO-DATABASE Socket.io Chat Application with Node.js where you can just chat and leave with no worries!",
+    "github": "https://github.com/ettisafxrup/zipcity-bd",
+    "preview": "https://tempchat-rdy5.onrender.com"
+  },
+  {
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYxHeVjfaw4NTc-qZvQCp0CLOYmc2oRFq5tw&s",
+    "title": "Toy Ransomware using nodeJs!",
+    "description": "A fun demo of a ransomware using nodeJs (typically harmless)",
+    "github": "https://github.com/ettisafxrup/toy-ransome-js"
+  },
+  {
+    "image": "https://i.ibb.co/LdGpkj5N/boighor.png",
+    "title": "(Deprecated Project) boiGhor — buy and gift books Online!",
+    "description": "A simple web application for buying and gift books online.",
+    "github": "https://github.com/ettisafxrup/BoiGhor"
+  }
+]

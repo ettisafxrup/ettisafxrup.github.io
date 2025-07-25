@@ -1,0 +1,90 @@
+{
+  "about": "— Aspiring Computer Engineer, Undergraduate at B.Sc, CSE | KUET with a strong foundation in programming, problem-solving, and system-level understanding. Passionate about learning, exploring and understanding how things work under the hood. Enthusiastic about building efficient, scalable, meaningful and innovative solutions. Known for being a fast learner, team player, and someone who blends the mess.",
+  "experience": [
+    {
+      "title": "Software Engineer",
+      "company": "Google",
+      "jobspan": "2021",
+      "responsibilites": "Present"
+    },
+    {
+      "title": "Software Engineer",
+      "company": "Google",
+      "jobspan": "2021",
+      "responsibilites": "Present"
+    }
+  ],
+  "education": [
+    {
+      "focus": "B.Sc, CSE",
+      "institute": "KUET",
+      "span": "2024-2027",
+      "status": "Undergraduate"
+    },
+    {
+      "focus": "HighSchool Graduation",
+      "institute": "Sara Marwari High School",
+      "span": "2017-2022",
+      "status": "Graduate"
+    }
+  ],
+  "skills": [
+    "C",
+    "C++",
+    "Go",
+    "Bash",
+    "JavaScript",
+
+    "DSA",
+    "LeetCode",
+    "Compiler Design",
+
+    "HTML & CSS",
+    "Tailwind CSS",
+    "React.js",
+    "Next.js",
+    "Vite",
+
+    "nodeJs",
+    "MongoDB",
+    "MySQL",
+    "Redis",
+
+    "Docker",
+    "CI/CD Pipelines",
+    "Cloud Hosting",
+    "PM2",
+
+    "Git",
+    "GitHub",
+    "Token & SSH Authentication",
+    "CLI Tools and Applications",
+    "Shell Scripting",
+
+    "OS: Windows, Linux (Ubuntu)",
+
+    "System Designing",
+    "Project Management",
+    "Software Engineering"
+  ],
+  "hobbies": ["🎵 Music", "📕 Books", "☕ Coffee", "🤍 Nature"],
+  "contact": {
+    "mobile": "+880 1303 342438",
+    "email": "ettisafrup@gmail.com",
+    "address": "Rajshahi, Bangladesh"
+  },
+  "links": {
+    "facebook": "https://www.facebook.com/ettisafxrup",
+    "github": "https://github.com/ettisafxrup",
+    "linkedin": "https://www.linkedin.com/in/ettisafxrup/"
+  },
+  "references": [
+    {
+      "name": "Tahsin Ahmed",
+      "position": "CEO",
+      "company": "Proxima IT",
+      "contact": "+880 1904 814714",
+      "email": "business.tahsin@gmail.com"
+    }
+  ]
+}

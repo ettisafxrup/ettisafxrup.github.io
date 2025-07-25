@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Contact Me - Andrew Watson</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        font-family: "Montserrat", sans-serif;
+        background-color: #f9f9f9;
+        color: #333;
+        margin: 0;
+        padding: 20px;
+      }
+      .container {
+        max-width: 600px;
+        margin: 40px auto;
+        background: #fff;
+        padding: 30px 40px;
+        border-radius: 8px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        text-align: center;
+      }
+      h1 {
+        font-weight: 700;
+        font-size: 28px;
+        margin-bottom: 25px;
+      }
+      p.intro {
+        font-size: 16px;
+        margin-bottom: 30px;
+      }
+      .cards {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+        gap: 20px;
+      }
+      .card {
+        background: #fff;
+        border-radius: 10px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+        padding: 20px;
+        transition: box-shadow 0.3s ease, transform 0.3s ease;
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        cursor: pointer;
+        text-decoration: none;
+        color: #333;
+      }
+      .card:hover {
+        box-shadow: 0 6px 20px rgba(0, 0, 0, 0.18);
+        transform: translateY(-4px);
+      }
+      .icon {
+        width: 36px;
+        height: 36px;
+        flex-shrink: 0;
+        fill: #333;
+        transition: fill 0.3s ease;
+      }
+
+      .card-text {
+        text-align: left;
+        font-weight: 600;
+        font-size: 18px;
+        flex-grow: 1;
+      }
+      @media (max-width: 480px) {
+        .container {
+          padding: 25px 20px;
+        }
+        h1 {
+          font-size: 24px;
+        }
+        .card-text {
+          font-size: 16px;
+        }
+        .icon {
+          width: 28px;
+          height: 28px;
+        }
+      }
+      .back-link {
+        margin-top: 30px;
+        display: inline-block;
+        color: #333;
+        text-decoration: none;
+        font-size: 16px;
+        transition: color 0.3s;
+      }
+      .back-link:hover {
+        color: #0073b1;
+        text-decoration: underline;
+      }
+      .card:hover[aria-label="Facebook"] .icon {
+        fill: #1877f2;
+      }
+      .card:hover[aria-label="LinkedIn"] .icon {
+        fill: #0077b5;
+      }
+      .card:hover[aria-label="GitHub"] .icon {
+        fill: #333333;
+      }
+      .card:hover[aria-label="Email"] .icon {
+        fill: #d44638;
+      }
+      .card:hover[aria-label="Discord"] .icon {
+        fill: #5865f2;
+      }
+      .card:hover[aria-label="WhatsApp"] .icon {
+        fill: #25d366;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Contact Me</h1>
+      <p class="intro">
+        Feel free to reach out via any of the platforms below.
+      </p>
+      <div class="cards">
+        <a
+          class="card"
+          href="https://www.facebook.com/yourusername"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Facebook"
+        >
+          <svg
+            class="icon"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+            aria-hidden="true"
+            focusable="false"
+          >
+            <path
+              d="M22.675 0H1.325C.593 0 0 .593 0 1.326v21.348C0 23.407.593 24 1.325 24h11.495v-9.294H9.692v-3.622h3.128V8.413c0-3.1 1.894-4.788 4.659-4.788 1.325 0 2.466.099 2.797.143v3.24l-1.918.001c-1.504 0-1.796.715-1.796 1.763v2.313h3.588l-.467 3.622h-3.121V24h6.116C23.407 24 24 23.407 24 22.674V1.326C24 .593 23.407 0 22.675 0z"
+            />
+          </svg>
+          <div class="card-text">Facebook</div>
+        </a>
+        <a
+          class="card"
+          href="https://www.linkedin.com/in/yourusername"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="LinkedIn"
+        >
+          <svg
+            class="icon"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+            aria-hidden="true"
+            focusable="false"
+          >
+            <path
+              d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.039-1.851-3.039-1.852 0-2.135 1.445-2.135 2.939v5.669H9.352V9h3.414v1.561h.049c.476-.9 1.637-1.851 3.37-1.851 3.603 0 4.268 2.37 4.268 5.451v6.291zM5.337 7.433a2.07 2.07 0 110-4.139 2.07 2.07 0 010 4.139zm1.776 13.019H3.56V9h3.553v11.452zM22.225 0H1.771C.792 0 0 .77 0 1.723v20.554C0 23.23.792 24 1.771 24h20.451C23.2 24 24 23.23 24 22.277V1.723C24 .77 23.2 0 22.225 0z"
+            />
+          </svg>
+          <div class="card-text">LinkedIn</div>
+        </a>
+        <a
+          class="card"
+          href="https://github.com/yourusername"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="GitHub"
+        >
+          <svg
+            class="icon"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+            aria-hidden="true"
+            focusable="false"
+          >
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M12 0C5.37 0 0 5.373 0 12c0 5.303 3.438 9.8 8.205 11.387.6.112.82-.258.82-.577v-2.234c-3.338.726-4.033-1.415-4.033-1.415-.546-1.387-1.333-1.756-1.333-1.756-1.09-.745.083-.729.083-.729 1.205.085 1.84 1.238 1.84 1.238 1.07 1.834 2.807 1.304 3.492.997.107-.775.42-1.304.763-1.604-2.665-.3-5.466-1.337-5.466-5.933 0-1.31.467-2.38 1.236-3.22-.124-.303-.536-1.522.117-3.176 0 0 1.008-.322 3.3 1.23a11.48 11.48 0 013.003-.404c1.018.005 2.045.138 3.003.404 2.29-1.552 3.296-1.23 3.296-1.23.655 1.654.243 2.873.12 3.176.77.84 1.235 1.91 1.235 3.22 0 4.609-2.807 5.628-5.479 5.922.431.371.815 1.104.815 2.227v3.301c0 .321.218.694.825.576C20.565 21.796 24 17.298 24 12c0-6.627-5.373-12-12-12z"
+            />
+          </svg>
+          <div class="card-text">GitHub</div>
+        </a>
+
+        <a class="card" href="mailto:info@watsonmail.com" aria-label="Email">
+          <svg
+            class="icon"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+            aria-hidden="true"
+            focusable="false"
+          >
+            <path
+              d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2Zm0 4-8 5-8-5V6l8 5 8-5v2Z"
+            />
+          </svg>
+          <div class="card-text">Email</div>
+        </a>
+        <a
+          class="card"
+          href="https://discord.gg/Fjukx5KTTh"
+          aria-label="Discord"
+        >
+          <svg
+            class="icon"
+            viewBox="0 0 24 24"
+            fill="#5865F2"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M20.317 4.369a19.791 19.791 0 00-4.885-1.515.07.07 0 00-.073.035c-.211.375-.444.864-.608 1.248a18.368 18.368 0 00-5.487 0 12.15 12.15 0 00-.617-1.248.077.077 0 00-.073-.035A19.736 19.736 0 003.684 4.37a.064.064 0 00-.03.025C.533 9.045-.32 13.578.099 18.057a.085.085 0 00.031.058 19.978 19.978 0 006.073 3.058.07.07 0 00.075-.027c.468-.64.884-1.319 1.245-2.03a.076.076 0 00-.041-.106 13.224 13.224 0 01-1.884-.9.077.077 0 01-.008-.13c.127-.094.254-.188.377-.285a.07.07 0 01.073-.01c3.927 1.793 8.18 1.793 12.061 0a.07.07 0 01.074.01c.123.097.25.191.377.285a.077.077 0 01-.006.13c-.6.364-1.23.676-1.883.9a.076.076 0 00-.042.106c.36.711.776 1.39 1.245 2.03a.07.07 0 00.075.027 19.933 19.933 0 006.077-3.058.085.085 0 00.03-.058c.5-5.177-.838-9.673-3.548-13.663a.06.06 0 00-.03-.027zM8.02 15.331c-1.183 0-2.155-1.085-2.155-2.419 0-1.333.955-2.419 2.156-2.419 1.21 0 2.176 1.095 2.156 2.419 0 1.333-.955 2.419-2.156 2.419zm7.965 0c-1.183 0-2.155-1.085-2.155-2.419 0-1.333.955-2.419 2.155-2.419 1.21 0 2.176 1.095 2.156 2.419 0 1.333-.946 2.419-2.156 2.419z"
+            />
+          </svg>
+          <div class="card-text">Discord</div>
+        </a>
+        <a
+          class="card"
+          href="https://wa.me/+8801303342438"
+          aria-label="WhatsApp"
+        >
+          <svg
+            class="icon"
+            viewBox="0 0 32 32"
+            fill="#25D366"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M16.004 2.002c-7.665 0-13.898 6.233-13.898 13.898 0 2.45.639 4.848 1.853 6.959L2 30l7.3-1.918a13.844 13.844 0 006.703 1.71h.001c7.664 0 13.896-6.233 13.896-13.898s-6.232-13.892-13.896-13.892zm0 25.548a11.64 11.64 0 01-5.925-1.61l-.424-.25-4.332 1.138 1.156-4.223-.276-.435a11.68 11.68 0 01-1.797-6.219c0-6.458 5.254-11.712 11.712-11.712 6.456 0 11.71 5.254 11.71 11.712s-5.254 11.712-11.71 11.712zm6.393-8.788c-.351-.176-2.075-1.023-2.397-1.14-.321-.118-.555-.176-.789.177s-.906 1.14-1.11 1.375c-.204.236-.408.265-.76.088-.351-.177-1.481-.544-2.821-1.732-1.043-.931-1.748-2.079-1.953-2.43-.204-.353-.022-.544.154-.719.159-.158.351-.408.527-.612.176-.203.234-.353.352-.586.117-.235.059-.441-.03-.618-.088-.176-.789-1.897-1.081-2.603-.285-.684-.575-.592-.789-.602l-.672-.012a1.304 1.304 0 00-.94.44c-.321.353-1.228 1.2-1.228 2.925s1.257 3.388 1.431 3.624c.175.236 2.47 3.772 5.986 5.29 2.184.942 3.036 1.024 4.126.897 1.25-.147 2.075-.84 2.365-1.647.29-.808.29-1.499.204-1.647-.088-.146-.321-.232-.672-.408z"
+            />
+          </svg>
+          <div class="card-text">Whatsapp</div>
+        </a>
+      </div>
+      <a href="index.html" class="back-link">← Back to Resume</a>
+    </div>
+  </body>
+</html>
