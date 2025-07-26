@@ -4,27 +4,22 @@
     {
       "title": "Technical Lead",
       "company": "Proxima IT",
-      "jobspan": "March 2025 - Present",
+      "jobspan": "June 2025 - Present",
+      "type": "Remote",
       "responsibilites": "working on Technical Architecture, Backend-Focused Application Development and writing Weekly Briefs to Proxima IT to ensure seamless coordination and project transparency."
-    },
-    {
-      "title": "CTO",
-      "company": "LoopNest",
-      "jobspan": "March 2025 - April 2025",
-      "responsibilites": "Maintaining the Backend Infrastructure of LoopNest, developing custom tools for the team, ensuring smooth and efficient operations."
     }
   ],
   "education": [
     {
       "focus": "B.Sc, CSE",
       "institute": "KUET",
-      "span": "2024-2027",
+      "span": "2025 - 2027",
       "status": "Undergraduate"
     },
     {
       "focus": "HighSchool Graduation",
       "institute": "Sara Marwari High School",
-      "span": "2017-2022",
+      "span": "2017 - 2022",
       "status": "Graduate"
     }
   ],

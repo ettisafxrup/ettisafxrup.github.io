@@ -34,6 +34,7 @@ const workExperience = document.getElementById("work-experience")
 data.experience.forEach((experience) => {
   const experienceItem = document.createElement("div")
   experienceItem.innerHTML = `
+  <span style="font-size: 12px"> ▪ </span> <small style="margin-left: 5px; font-size: 12px">${experience.type}</small>
     <p><strong>${experience.title}</strong>, ${experience.company}</p>
     <p>${experience.jobspan}</p>
     <p>${experience.responsibilites}</p>

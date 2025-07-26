@@ -16,6 +16,38 @@
         background-color: #f9f9f9;
         color: #333;
       }
+
+      /* ===== Loader Styles ===== */
+      #loader {
+        position: fixed;
+        width: 100vw;
+        height: 100vh;
+        background: #f9f9f9;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 9999;
+      }
+
+      .spinner {
+        border: 5px solid #f3f3f3;
+        border-top: 5px solid #333;
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        animation: spin 1s linear infinite;
+      }
+
+      @keyframes spin {
+        0% {
+          transform: rotate(0deg);
+        }
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+
+      /* ===== Existing Styles Remain Untouched ===== */
       .container {
         max-width: 1000px;
         margin: 0 auto;
@@ -66,15 +98,41 @@
         color: #666;
         flex-grow: 1;
       }
+
       .back-link {
-        display: block;
+        display: inline-block;
         text-align: center;
-        margin-top: 30px;
+        margin: 30px auto 0;
         color: #333;
         text-decoration: none;
+        position: relative;
+        transition: transform 0.3s ease, color 0.3s ease,
+          letter-spacing 0.3s ease;
+        letter-spacing: 0.5px;
       }
+
+      .back-link::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: -3px;
+        width: 100%;
+        height: 2px;
+        background-color: #333;
+        transform: scaleX(0);
+        transform-origin: left;
+        transition: transform 0.3s ease;
+        border-radius: 2px;
+      }
+
       .back-link:hover {
-        text-decoration: underline;
+        color: #000;
+        transform: translateY(-2px) scale(1.02);
+        letter-spacing: 5px; /* Add spacing on hover */
+      }
+
+      .back-link:hover::after {
+        transform: scaleX(1);
       }
 
       @media (max-width: 480px) {
@@ -127,12 +185,24 @@
     </style>
   </head>
   <body>
-    <div class="container">
+    <!-- Loader -->
+    <div id="loader">
+      <div class="spinner"></div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="container" style="display: none">
+      <a class="back-link" href="index.html">← Back to Home</a>
       <h1>🧧 WORKFILES</h1>
       <div class="works-grid"></div>
-      <a class="back-link" href="index.html">← Back to Home</a>
     </div>
 
     <script type="module" src="./js/works.js"></script>
+    <script>
+      window.addEventListener("load", () => {
+        document.getElementById("loader").style.display = "none"
+        document.querySelector(".container").style.display = "block"
+      })
+    </script>
   </body>
 </html>
