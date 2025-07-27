@@ -209,10 +209,10 @@
     <script type="module" src="./js/works.js"></script>
     <script>
       const worksGrid = document.getElementsByClassName("works-grid")[0]
-      window.addEventListener("load", () => {
+      setTimeout(() => {
         document.getElementById("loader").style.display = "none"
         document.querySelector(".container").style.display = "block"
-      })
+      }, 1000)
     </script>
   </body>
 </html>
