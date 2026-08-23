@@ -1,65 +1,88 @@
 {
-  "about": "— Aspiring Computer Engineer, Undergraduate at B.Sc, CSE | KUET with a strong foundation in programming, problem-solving, and system-level understanding. Passionate about learning, exploring and understanding how things work under the hood. Enthusiastic about building efficient, scalable, meaningful and innovative solutions. Known for being a fast learner, team player, and someone who blends the mess.",
+  "about": "Computer Science and Engineering undergraduate at Khulna University of Engineering and Technology (KUET) with practical experience in software development, backend-focused application development, software architecture, and systems-oriented programming. Interested in understanding how software works under the hood and building efficient, meaningful, and reliable solutions.",
   "experience": [
+    {
+      "title": "Software Crew",
+      "company": "XtendArena",
+      "jobspan": "June 2026 - Present",
+      "type": "Current",
+      "responsibilites": "Contributing to software development and engineering activities at XtendArena."
+    },
+    {
+      "title": "Software Developer",
+      "company": "XtendArena",
+      "jobspan": "March 2025 - June 2026",
+      "type": "Remote",
+      "responsibilites": "Worked on software development initiatives including making the weexSchools source code public, desktop application development with Electron.js, and launching rgit v1.1, a Linux-compatible CLI tool built using pure Shell Script."
+    },
     {
       "title": "Technical Lead",
       "company": "Proxima IT",
-      "jobspan": "June 2025 - Augest 2025",
+      "jobspan": "April 2025 - August 2025",
       "type": "Remote",
-      "responsibilites": "worked on Technical Architecture, Backend-Focused Application Development and writing Weekly Briefs to Proxima IT to ensure seamless coordination and project transparency."
+      "responsibilites": "Worked on technical architecture, backend-focused application development, application architecture, and technology selection. Wrote weekly briefs to maintain project coordination and transparency and contributed to reducing server costs for business platforms."
+    },
+    {
+      "title": "Programming Instructor",
+      "company": "Loop Nest",
+      "jobspan": "April 2025 - July 2025",
+      "type": "Remote",
+      "responsibilites": "Conducted live programming classes covering Python, JavaScript, Git, GitHub, programming fundamentals, and web-development concepts. Taught Programming Bootcamp Batch 01 and solved programming problems related to the course material."
+    },
+    {
+      "title": "Web Developer",
+      "company": "XtendArena",
+      "jobspan": "January 2023 - April 2023",
+      "type": "Remote",
+      "responsibilites": "Worked in web development."
     }
   ],
   "education": [
     {
-      "focus": "B.Sc, CSE",
-      "institute": "KUET",
-      "span": "2025 - Present",
+      "focus": "B.Sc. in Computer Science and Engineering",
+      "institute": "Khulna University of Engineering and Technology (KUET)",
+      "span": "2025 - 2030",
       "status": "Undergraduate"
-    },
-    {
-      "focus": "HighSchool Graduation",
-      "institute": "Sara Marwari High School",
-      "span": "2017 - 2022",
-      "status": "Graduate"
     }
   ],
   "skills": [
     "C",
-    "C++",
+    "C++20",
     "Go",
     "Bash",
     "JavaScript",
-
+    "TypeScript",
+    "Python",
     "DSA",
-    "LeetCode",
     "Compiler Design",
-
     "HTML & CSS",
     "Tailwind CSS",
     "React.js",
     "Next.js",
     "Vite",
-
-    "nodeJs",
+    "Node.js",
+    "Electron.js",
     "MongoDB",
     "MySQL",
     "Redis",
-
     "Docker",
     "CI/CD Pipelines",
     "Cloud Hosting",
     "PM2",
-
     "Git",
     "GitHub",
     "Token & SSH Authentication",
-    "CLI Tools and Applications",
+    "CLI Tools & Applications",
     "Shell Scripting",
-
-    "OS: Windows, Linux (Ubuntu)",
-
-    "System Designing",
-    "Project Management",
+    "Windows",
+    "Linux (Ubuntu)",
+    "Backend Development",
+    "Web Development",
+    "Software Architecture",
+    "Technical Architecture",
+    "Application Architecture",
+    "Performance Optimization",
+    "Technology Selection",
     "Software Engineering"
   ],
   "hobbies": ["🎵 Music", "📕 Books", "☕ Coffee", "🤍 Nature"],
@@ -73,13 +96,5 @@
     "github": "https://github.com/ettisafxrup",
     "linkedin": "https://www.linkedin.com/in/ettisafxrup/"
   },
-  "references": [
-    {
-      "name": "",
-      "position": "",
-      "company": "",
-      "contact": "",
-      "email": ""
-    }
-  ]
+  "references": []
 }
