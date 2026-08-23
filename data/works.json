@@ -1,42 +1,42 @@
 [
   {
+    "image": "https://i.ibb.co/wFWFBXRq/rgit.png",
+    "title": "rgit — Life became easy!",
+    "description": "A lightweight command-line macro tool built with Shell Script to speed up and simplify everyday Git and project-management workflows.",
+    "github": "https://github.com/ettisafxrup/rgit",
+    "preview": "https://github.com/ettisafxrup/rgit/tree/main/installer"
+  },
+  {
     "image": "https://i.ibb.co/R4N4x36v/weex.png",
     "title": "weexSchools — Manage like a Pro!",
-    "description": "A chromium-based (Native Electron) desktop application for managing educational institute's data more efficiently!",
+    "description": "A Chromium-based desktop application built with Electron.js for managing educational institute data more efficiently.",
     "github": "https://github.com/ettisafxrup/weexschools",
     "preview": "https://github.com/ettisafxrup/weexschools/releases"
   },
   {
-    "image": "https://i.ibb.co/wFWFBXRq/rgit.png",
-    "title": "rgit — Life became easy!",
-    "description": "rgit is a lightweight command-line macro tool designed to speed up and simplify your daily life workflows, including gits and project managings",
-    "github": "https://github.com/ettisafxrup/rit",
-    "preview": "https://github.com/ettisafxrup/rit/tree/main/installer"
-  },
-  {
     "image": "https://i.ibb.co/Vc6PzNVG/zipcity.png",
-    "title": "zipcity-bd — an NPM package that people didn't know they needed!",
-    "description": "A Bangladesh-based zipcode package to get your Divisions, Districts, City, Sub-City with PostalCode in just seconds.",
+    "title": "zipcity-bd — Bangladesh Postal Data, Simplified",
+    "description": "A Bangladesh-focused NPM package providing divisions, districts, cities, sub-cities, and postal codes through a simple interface.",
     "github": "https://github.com/ettisafxrup/zipcity-bd",
     "preview": "https://www.npmjs.com/package/zipcity-bd"
   },
   {
+    "image": "https://private-user-images.githubusercontent.com/107711625/632507411-d111e073-c3c8-47ec-92e2-553ace4b329f.jpeg?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3ODc1MTQxNzcsIm5iZiI6MTc4NzUxMzg3NywicGF0aCI6Ii8xMDc3MTE2MjUvNjMyNTA3NDExLWQxMTFlMDczLWMzYzgtNDdlYy05MmUyLTU1M2FjZTRiMzI5Zi5qcGVnP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI2MDgyMyUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNjA4MjNUMTkzNzU3WiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9YjM4YjYyMjEzOThiYWRlNWFhZjU0MWY4MDA5M2NjODZjYTExNTVkMzg0MTQyNmUyOWNlNTFiMGQ2YjU4ZGJmZSZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QmcmVzcG9uc2UtY29udGVudC10eXBlPWltYWdlJTJGanBlZyJ9.N4L6dpPf6xnn-0nrDieS2rUINzB9oQTt5jgyqWSsY2E",
+    "title": "CleanWrap — Because your Folder Deserves better.",
+    "description": "A fast, lightweight, and modular file-organizing application written in Modern C++20, designed to automatically organize messy folders into structured categories.",
+    "github": "https://github.com/ettisafxrup/CleanWrap"
+  },
+  {
     "image": "https://i.ibb.co/mrBVq8Vk/image.png",
-    "title": "tempChats — chat and disappear! 🤫",
-    "description": "a NO-DATABASE Socket.io Chat Application with Node.js where you can just chat and leave with no worries!",
-    "github": "https://github.com/ettisafxrup/zipcity-bd",
+    "title": "tempChats — Chat and disappear!",
+    "description": "A temporary real-time chat application built with Node.js and Socket.IO, designed for conversations without persistent database storage.",
+    "github": "https://github.com/ettisafxrup/tempChats",
     "preview": "https://tempchat-rdy5.onrender.com"
   },
   {
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYxHeVjfaw4NTc-qZvQCp0CLOYmc2oRFq5tw&s",
-    "title": "Toy Ransomware using nodeJs!",
-    "description": "A fun demo of a ransomware using nodeJs (typically harmless)",
+    "title": "Toy Ransomware — Node.js Security Demo",
+    "description": "A controlled and harmless Node.js demonstration project created to explore the basic concepts behind ransomware behavior.",
     "github": "https://github.com/ettisafxrup/toy-ransome-js"
-  },
-  {
-    "image": "https://i.ibb.co/LdGpkj5N/boighor.png",
-    "title": "(Deprecated Project) boiGhor — buy and gift books Online!",
-    "description": "A simple web application for buying and gift books online.",
-    "github": "https://github.com/ettisafxrup/BoiGhor"
   }
 ]
