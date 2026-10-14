@@ -1,74 +1,128 @@
-async function fetchData() {
-  const response = await fetch("../data/index.json")
-  const data = await response.json()
-  return data
+import { loadJSON, html } from "./common.js"
+
+const $ = (id) => document.getElementById(id)
+const render = (id, markup) => ($(id).innerHTML = markup)
+
+const newTab = (url, label) =>
+  html`<a href="${url}" target="_blank" rel="noopener noreferrer">${label}</a>`
+
+function renderContact({ contact }) {
+  const phoneHref = `tel:${contact.mobile.replace(/[^\d+]/g, "")}`
+  render(
+    "contact",
+    html`
+      <li><span aria-hidden="true">📞</span><a href="${phoneHref}">${contact.mobile}</a></li>
+      <li><span aria-hidden="true">📧</span><a href="mailto:${contact.email}">${contact.email}</a></li>
+      <li><span aria-hidden="true">🏡</span><span>${contact.address}</span></li>
+    `
+  )
 }
 
-const data = await fetchData()
+function renderLinks({ links }) {
+  render(
+    "links",
+    html`${links
+      .filter((link) => link.id !== "email")
+      .map((link) => html`<li>${newTab(link.url, link.label)}</li>`)}`
+  )
+}
 
-const mobile = document.getElementById("mobile")
-const email = document.getElementById("email")
-const address = document.getElementById("address")
-mobile.textContent = data.contact.mobile
-email.textContent = data.contact.email
-address.textContent = data.contact.address
+function renderReferences({ references }) {
+  if (!references.length) return
+  render(
+    "references",
+    html`${references.map(
+      (ref) => html`
+        <li class="timeline-item">
+          <strong>${ref.name}</strong>
+          <div class="timeline-meta">${ref.position}, ${ref.company}</div>
+          <div class="timeline-meta">${ref.contact}</div>
+          <div class="timeline-meta">${ref.email}</div>
+        </li>
+      `
+    )}`
+  )
+  $("references-section").hidden = false
+}
 
-const referenceList = document.getElementById("reference-list")
-data.references.forEach((reference) => {
-  const referenceItem = document.createElement("li")
-  referenceItem.innerHTML = `
-    <strong>${reference.name}</strong><br />
-    <small>${reference.position}, ${reference.company}</small>
-    <p style="margin-top: -3px"></p>
-    <small>${reference.contact}</small>
-    <p style="margin-top: -3px"></p>
-    <small>${reference.email}</small>
-  `
-  referenceList.appendChild(referenceItem)
-})
+function renderLanguages({ languages }) {
+  render(
+    "languages",
+    html`${languages.map(
+      (lang) => html`<li>${lang.name} <small class="muted"><i>(${lang.level})</i></small></li>`
+    )}`
+  )
+}
 
-const about = document.getElementById("about")
-about.textContent = data.about
+function renderExperience({ experience }) {
+  render(
+    "experience",
+    html`${experience.map(
+      (job) => html`
+        <li class="timeline-item">
+          <div class="timeline-head">
+            <span>
+              <strong>${job.title}</strong>, ${job.url ? newTab(job.url, job.company) : job.company}
+              <span class="badge">${job.type}</span>
+            </span>
+            <span class="timeline-meta">${job.span}</span>
+          </div>
+          <p>${job.summary}</p>
+        </li>
+      `
+    )}`
+  )
+}
 
-const workExperience = document.getElementById("work-experience")
-data.experience.forEach((experience) => {
-  const experienceItem = document.createElement("div")
-  experienceItem.innerHTML = `
-  <span style="font-size: 12px"> ▪ </span> <small style="margin-left: 5px; font-size: 12px">${experience.type}</small>
-    <p><strong>${experience.title}</strong>, ${experience.company}</p>
-    <p>${experience.jobspan}</p>
-    <p>${experience.responsibilites}</p>
-    <br />
-  `
-  workExperience.appendChild(experienceItem)
-})
+function renderEducation({ education }) {
+  render(
+    "education",
+    html`${education.map(
+      (edu) => html`
+        <li class="timeline-item">
+          <div class="timeline-head">
+            <span><strong>${edu.degree}</strong><span class="badge">${edu.status}</span></span>
+            <span class="timeline-meta">${edu.span}</span>
+          </div>
+          <p>${edu.institute}</p>
+        </li>
+      `
+    )}`
+  )
+}
 
-const educationBox = document.getElementById("education")
-data.education.forEach((education) => {
-  const educationItem = document.createElement("div")
-  educationItem.innerHTML = `
-    <small style="font-size: 12px"><i>${education.status}</i></small>
-    <p><strong>${education.focus}</strong>, ${education.institute} | ${education.span}</p>
-    <p style="margin-top: 10px"></p>
-  `
-  educationBox.appendChild(educationItem)
-})
+function renderSkills({ skills }) {
+  render(
+    "skills",
+    html`${Object.entries(skills).map(
+      ([group, items]) => html`
+        <div class="skill-group">
+          <h3>${group}</h3>
+          <div class="chips">${items.map((skill) => html`<span class="chip">${skill}</span>`)}</div>
+        </div>
+      `
+    )}`
+  )
+}
 
-const skillsBox = document.getElementsByClassName("skills")[0]
-data.skills.forEach((skill) => {
-  const skillItem = document.createElement("div")
-  skillItem.innerHTML = `
-    <p class="skills-card">${skill}</p>
-  `
-  skillsBox.appendChild(skillItem)
-})
+function renderHobbies({ hobbies }) {
+  render("hobbies", html`${hobbies.map((hobby) => html`<span>${hobby}</span>`)}`)
+}
 
-const hobbiesBox = document.getElementsByClassName("hobbies")[0]
-data.hobbies.forEach((hobby) => {
-  const hobbyItem = document.createElement("div")
-  hobbyItem.innerHTML = `
-              <div><br /><p style="margin-left: 10px; margin-right: 10px; font-weight: bold">${hobby}</p></div>
-
-  `
-  hobbiesBox.appendChild(hobbyItem)
-})
+try {
+  const profile = await loadJSON("profile.json")
+  $("name").textContent = profile.name.toUpperCase()
+  $("headline").textContent = profile.headline
+  $("about").textContent = profile.about
+  renderContact(profile)
+  renderLinks(profile)
+  renderReferences(profile)
+  renderLanguages(profile)
+  renderExperience(profile)
+  renderEducation(profile)
+  renderSkills(profile)
+  renderHobbies(profile)
+} catch (error) {
+  console.error(error)
+  $("about").textContent = "Couldn't load profile data. Please refresh the page."
+}

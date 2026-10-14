@@ -1,0 +1,99 @@
+[
+  {
+    "title": "CleanWrap",
+    "tagline": "Because your folder deserves better.",
+    "description": "A fast, lightweight, modular Windows app written in Modern C++20 that instantly organizes messy folders into clean, structured categories.",
+    "tags": ["C++20", "Windows", "GitHub Actions"],
+    "image": "https://opengraph.githubassets.com/1/ettisafxrup/CleanWrap",
+    "github": "https://github.com/ettisafxrup/CleanWrap",
+    "preview": "https://ettisafxrup.github.io/CleanWrap/"
+  },
+  {
+    "title": "rgit",
+    "tagline": "Life became easy!",
+    "description": "A lightweight command-line macro tool, now written in Go, that speeds up and simplifies everyday Git and project-management workflows.",
+    "tags": ["Go", "CLI"],
+    "image": "https://i.ibb.co/wFWFBXRq/rgit.png",
+    "github": "https://github.com/ettisafxrup/rgit",
+    "preview": "https://ettisafxrup.github.io/rgit/"
+  },
+  {
+    "title": "CholoKUET",
+    "tagline": "Offline campus navigator.",
+    "description": "An offline campus navigator for KUET, built in C++ on hand-written data structures and algorithms.",
+    "tags": ["C++", "DSA", "Web"],
+    "image": "https://opengraph.githubassets.com/1/ettisafxrup/CholoKUET",
+    "github": "https://github.com/ettisafxrup/CholoKUET",
+    "preview": "https://ettisafxrup.github.io/CholoKUET/"
+  },
+  {
+    "title": "zipcity-bd",
+    "tagline": "Bangladesh postal data, simplified.",
+    "description": "An NPM package providing Bangladesh's divisions, districts, cities, sub-cities, and postal codes through a simple interface.",
+    "tags": ["JavaScript", "NPM"],
+    "image": "https://i.ibb.co/Vc6PzNVG/zipcity.png",
+    "github": "https://github.com/ettisafxrup/zipcity-bd",
+    "preview": "https://www.npmjs.com/package/zipcity-bd"
+  },
+  {
+    "title": "GridWise LLM",
+    "tagline": "BUP CSE Fest 2026 hackathon.",
+    "description": "An energy-optimization service that pairs an LLM language layer with deterministic validation and mathematical optimization to turn operator directives into a feasible 24-hour energy plan.",
+    "tags": ["Python", "LLM", "Optimization"],
+    "image": "https://opengraph.githubassets.com/1/ettisafxrup/GridWise-LLM",
+    "github": "https://github.com/ettisafxrup/GridWise-LLM",
+    "preview": "https://bup-fest-hackathon-team.onrender.com/"
+  },
+  {
+    "title": "Dakhil",
+    "tagline": "Tender packages, in the browser.",
+    "description": "Turns a folder of PDFs into one checked, ordered, page-numbered tender package — without a single file leaving your browser.",
+    "tags": ["TypeScript", "PDF"],
+    "image": "https://opengraph.githubassets.com/1/ettisafxrup/devfest-vibe_coding-ettisaf_rup-KUET_2407109-Dakhil_Tender_App",
+    "github": "https://github.com/ettisafxrup/devfest-vibe_coding-ettisaf_rup-KUET_2407109-Dakhil_Tender_App",
+    "preview": "https://dakhil-ettisafxrup.netlify.app/"
+  },
+  {
+    "title": "HACK Web",
+    "tagline": "Hardware Acceleration Club of KUET.",
+    "description": "The official website of the Hardware Acceleration Club of KUET.",
+    "tags": ["TypeScript", "Web"],
+    "image": "https://opengraph.githubassets.com/1/ettisafxrup/HACK-Web",
+    "github": "https://github.com/ettisafxrup/HACK-Web",
+    "preview": "https://hack-kuet.vercel.app"
+  },
+  {
+    "title": "weexSchools",
+    "tagline": "Manage like a pro!",
+    "description": "A Chromium-based desktop application built with Electron.js for managing educational institute data more efficiently.",
+    "tags": ["TypeScript", "Electron.js"],
+    "image": "https://i.ibb.co/R4N4x36v/weex.png",
+    "github": "https://github.com/ettisafxrup/weexschools",
+    "preview": "https://github.com/ettisafxrup/weexschools/releases"
+  },
+  {
+    "title": "Repo Analyzer",
+    "tagline": "Compare repositories from the terminal.",
+    "description": "A Python script that analyzes repositories and renders comparative review charts in the terminal, built for judging hackathons and competitions.",
+    "tags": ["Python", "Git"],
+    "image": "https://opengraph.githubassets.com/1/ettisafxrup/Repo-Analyzer",
+    "github": "https://github.com/ettisafxrup/Repo-Analyzer"
+  },
+  {
+    "title": "tempChats",
+    "tagline": "Chat and disappear!",
+    "description": "A temporary real-time chat application built with Node.js and Socket.IO, designed for conversations without persistent storage.",
+    "tags": ["Node.js", "Socket.IO"],
+    "image": "https://i.ibb.co/mrBVq8Vk/image.png",
+    "github": "https://github.com/ettisafxrup/tempChats",
+    "preview": "https://tempchat-rdy5.onrender.com"
+  },
+  {
+    "title": "Toy Ransomware",
+    "tagline": "Node.js security demo.",
+    "description": "A controlled, harmless Node.js demonstration project built to explore the basic concepts behind ransomware behavior.",
+    "tags": ["Node.js", "Security"],
+    "image": "https://opengraph.githubassets.com/1/ettisafxrup/toy-ransome-js",
+    "github": "https://github.com/ettisafxrup/toy-ransome-js"
+  }
+]

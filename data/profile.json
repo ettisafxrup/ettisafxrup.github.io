@@ -1,0 +1,87 @@
+{
+  "name": "Ettisaf Rup",
+  "headline": "Computer Science Undergraduate · Software Engineer",
+  "about": "Computer Science and Engineering undergraduate at Khulna University of Engineering and Technology (KUET), passionate about software, hardware, and system-level engineering. I enjoy turning complex problems into practical, reliable software while exploring backend engineering, low-level systems, software architecture, and computer science fundamentals — and I'm driven to build robust systems and grow into a versatile software engineer.",
+  "experience": [
+    {
+      "title": "Founder",
+      "company": "Fork",
+      "url": "https://github.com/Forkship",
+      "span": "August 2026 – Present",
+      "type": "Current",
+      "summary": "Founded Fork, a student-led technology club focused on software engineering, open-source development, systems, cybersecurity, and emerging technologies."
+    },
+    {
+      "title": "Software Engineering Crew",
+      "company": "XtendArena",
+      "span": "June 2026 – Present",
+      "type": "Current",
+      "summary": "Contributing to software development and engineering activities at XtendArena."
+    },
+    {
+      "title": "Software Developer",
+      "company": "XtendArena",
+      "span": "March 2025 – June 2026",
+      "type": "Remote",
+      "summary": "Worked on software development initiatives including open-sourcing the weexSchools codebase, desktop application development with Electron.js, and launching rgit v1.1, a Linux-compatible CLI tool built in pure Shell Script."
+    },
+    {
+      "title": "Technical Lead",
+      "company": "Proxima IT",
+      "span": "April 2025 – August 2025",
+      "type": "Remote",
+      "summary": "Owned technical and application architecture, backend-focused development, and technology selection. Wrote weekly briefs to keep the project coordinated and transparent, and helped reduce server costs for business platforms."
+    },
+    {
+      "title": "Programming Instructor",
+      "company": "Loop Nest",
+      "span": "April 2025 – July 2025",
+      "type": "Remote",
+      "summary": "Taught Programming Bootcamp Batch 01 through live classes covering Python, JavaScript, Git, GitHub, programming fundamentals, and web development, and solved course-related programming problems with students."
+    },
+    {
+      "title": "Web Developer",
+      "company": "XtendArena",
+      "span": "January 2023 – April 2023",
+      "type": "Remote",
+      "summary": "Worked on web development."
+    }
+  ],
+  "education": [
+    {
+      "degree": "B.Sc. in Computer Science and Engineering",
+      "institute": "Khulna University of Engineering and Technology (KUET)",
+      "span": "2025 – 2030",
+      "status": "Undergraduate"
+    }
+  ],
+  "skills": {
+    "Languages": ["C", "C++20", "Go", "JavaScript", "TypeScript", "Python", "Bash"],
+    "Backend": ["Node.js", "Express", "NestJS", "MongoDB", "MySQL", "Redis", "Firebase", "Supabase"],
+    "Frontend & Desktop": ["HTML & CSS", "React.js", "Next.js", "Vite", "Tailwind CSS", "Electron.js"],
+    "Tools & DevOps": ["Git", "GitHub", "GitHub Actions", "Docker", "CMake", "PM2", "Linux", "Vercel", "Netlify", "Cloudflare"],
+    "Areas": ["Data Structures & Algorithms", "Systems Programming", "Backend Engineering", "Software Architecture", "Compiler Design", "CLI Tools", "Performance Optimization"]
+  },
+  "languages": [
+    { "name": "Bengali", "level": "Native" },
+    { "name": "English", "level": "Professional Working" },
+    { "name": "Urdu / Hindi", "level": "Limited Working" }
+  ],
+  "hobbies": ["🎵 Music", "📕 Literature", "☕ Coffee", "🤍 Nature"],
+  "contact": {
+    "mobile": "+880 1303 342438",
+    "email": "ettisafrup@gmail.com",
+    "address": "Rajshahi, Bangladesh"
+  },
+  "links": [
+    { "id": "github", "label": "GitHub", "url": "https://github.com/ettisafxrup" },
+    { "id": "linkedin", "label": "LinkedIn", "url": "https://www.linkedin.com/in/ettisafxrup/" },
+    { "id": "youtube", "label": "YouTube", "url": "https://www.youtube.com/@rupbhaiya" },
+    { "id": "facebook", "label": "Facebook", "url": "https://www.facebook.com/ettisafxrup" },
+    { "id": "instagram", "label": "Instagram", "url": "https://www.instagram.com/ettisafxrup/" },
+    { "id": "discord", "label": "Discord", "url": "https://discord.gg/Fjukx5KTTh" },
+    { "id": "whatsapp", "label": "WhatsApp", "url": "https://wa.me/8801303342438" },
+    { "id": "email", "label": "Email", "url": "mailto:ettisafrup@gmail.com" }
+  ],
+  "references": []
+}
